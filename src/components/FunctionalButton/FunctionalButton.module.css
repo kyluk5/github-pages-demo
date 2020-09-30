@@ -1,7 +1,8 @@
 .functional_button {
     position: absolute;
     top: 472px;
-    left: 16px;
+    left: 50%;
+    transform: translateX(-50%);
 
     width: 288px;
     height: 48px;
@@ -19,4 +20,8 @@
     /* or 16px */
     color: rgba(255, 255, 255, 1);
     outline: none;
+}
+
+.button_pressed {
+    background-color: #E87928;
 }

@@ -10,7 +10,6 @@ const start = () => {
     <div className={styles.start_wraper}>
       <img src={cool} alt="hand_gesture" className={styles.hand_gesture} />
       <h1 className={styles.title}>Who wants to be a millionaire?</h1>
-      {/* <button className={styles.start_button}>Start</button> */}
       <FunctionalButton text={"Start"} />
       <StartBackground />
     </div>

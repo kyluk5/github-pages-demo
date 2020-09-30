@@ -1,11 +1,13 @@
 .start_wraper {
     position: relative;
+    height: 100vh;
 }
 
 .hand_gesture {
     position: absolute;
     top: 98px;
-    left: 61.4px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 197px;
     height: 155.5px
 }
@@ -14,7 +16,8 @@
     position: absolute;
     width: 288px;
     height: 74px;
-    left: 16px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 296px;
 
     /* Mobile / Headline */

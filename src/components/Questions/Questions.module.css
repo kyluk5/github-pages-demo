@@ -20,7 +20,8 @@
   position: absolute;
   width: 288px;
   height: 63px;
-  left: 16px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 136px;
   font-family: Inter;
   font-style: normal;
@@ -42,7 +43,8 @@
   position: absolute;
   min-width: 320px;
   min-height: 248px;
-  left: 0px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 296px;
 }
 
@@ -57,7 +59,7 @@
   border: none;
   outline: none;
   background-color: transparent;
-  background-image: url("./images/Rectangle\ 4.svg");
+  background-image: url("./images/Inactive.svg");
 }
 
 .choise_button:not(:last-child) {
@@ -67,24 +69,28 @@
 .choise_button::before {
   content: "";
   position: absolute;
-  width: 17px;
   height: 1px;
-  right: -16px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 50%;
   background-color: #d0d0d8;
-}
-
-.choise_button::after {
-  content: "";
-  position: absolute;
-  width: 17px;
-  height: 1px;
-  left: -16px;
-  top: 50%;
-  background-color: #d0d0d8;
+  width: 100vw;
+  z-index: -1;
 }
 
 .choise_letter {
   color: rgba(255, 139, 55, 1);
   margin-right: 8px;
+}
+
+.selected {
+  background-image: url("./images/Selected.svg");
+}
+
+.correct {
+  background-image: url("./images/Correct.svg");
+}
+
+.wrong {
+  background-image: url("./images/Wrong.svg");
 }

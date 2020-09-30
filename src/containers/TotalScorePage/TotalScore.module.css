@@ -6,14 +6,16 @@
 .cool {
     position: absolute;
     top: 98px;
-    left: 61.4px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .score_info {
     position: absolute;
     width: 288px;
     height: 66px;
-    left: 16px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 304px;
 
     display: flex;

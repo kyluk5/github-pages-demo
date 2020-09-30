@@ -1,12 +1,12 @@
 import React from "react";
-import Questions from "../../components/Questions/Questions";
-// import Menu from "../../components/Menu/Menu";
+// import Questions from "../../components/Questions/Questions";
+import Menu from "../../components/Menu/Menu";
 
 const QuestionPage = () => {
   return (
     <>
-      <Questions />
-      {/* <Menu /> */}
+      {/* <Questions /> */}
+      <Menu />
     </>
   );
 };

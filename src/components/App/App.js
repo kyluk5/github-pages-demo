@@ -1,14 +1,14 @@
 import React from "react";
-// import Start from "../../containers/StartPage/Start";
+import Start from "../../containers/StartPage/Start";
 // import QuestionsPage from "../../containers/QuestionPage/QuestionPage";
-import TotalScore from "../../containers/TotalScorePage/TotalScore";
+// import TotalScore from "../../containers/TotalScorePage/TotalScore";
 
 function App() {
   return (
     <>
-      {/* <Start /> */}
+      <Start />
       {/* <QuestionsPage /> */}
-      <TotalScore />
+      {/* <TotalScore /> */}
     </>
   );
 }
