@@ -1,0 +1,56 @@
+.hand_gesture {
+    position: absolute;
+    top: 98px;
+    left: 61.4px;
+    width: 197px;
+    height: 155.5px
+}
+
+.title {
+    position: absolute;
+    width: 288px;
+    height: 74px;
+    left: 16px;
+    top: 296px;
+
+    /* Mobile / Headline */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 116%;
+    /* or 37px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black-100 */
+
+    color: #1C1C21;
+    top: 288px;
+}
+
+.start_button {
+    position: absolute;
+    top: 472px;
+    left: 16px;
+
+    width: 288px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 139, 55, 1);
+
+    /* Mobile / Button */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 116%;
+    /* or 16px */
+    color: rgba(255, 255, 255, 1);
+    outline: none;
+}
