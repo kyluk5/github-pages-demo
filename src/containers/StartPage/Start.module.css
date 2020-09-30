@@ -1,3 +1,7 @@
+.start_wraper {
+    position: relative;
+}
+
 .hand_gesture {
     position: absolute;
     top: 98px;
@@ -30,27 +34,4 @@
 
     color: #1C1C21;
     top: 288px;
-}
-
-.start_button {
-    position: absolute;
-    top: 472px;
-    left: 16px;
-
-    width: 288px;
-    height: 48px;
-    border: none;
-    border-radius: 8px;
-    background-color: rgba(255, 139, 55, 1);
-
-    /* Mobile / Button */
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 116%;
-    /* or 16px */
-    color: rgba(255, 255, 255, 1);
-    outline: none;
 }

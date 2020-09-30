@@ -1,0 +1,57 @@
+.total_wrapper {
+    background-color: rgba(245, 245, 247, 1);
+    height: 100vh;
+}
+
+.cool {
+    position: absolute;
+    top: 98px;
+    left: 61.4px;
+}
+
+.score_info {
+    position: absolute;
+    width: 288px;
+    height: 66px;
+    left: 16px;
+    top: 304px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score_title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black-100 */
+
+    color: #1C1C21;
+    opacity: 0.5;
+}
+
+.score {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 116%;
+    /* or 37px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black-100 */
+
+    color: #1C1C21;
+}
