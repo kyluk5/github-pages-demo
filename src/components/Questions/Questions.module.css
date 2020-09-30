@@ -1,69 +1,96 @@
 .background {
-    position: relative;
-    background-color: rgba(245, 245, 247, 1);
-    min-height: 568px;
+  position: relative;
+  background-color: rgba(245, 245, 247, 1);
+  height: 100vh;
 }
 
 .menu_button {
-    position: absolute;
-    top: 21px;
-    right: 20px;
-    width: 16px;
-    height: 14px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    background-image: url('./images/Union.svg');
+  position: absolute;
+  top: 21px;
+  right: 20px;
+  width: 16px;
+  height: 14px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background-image: url("./images/Union.svg");
 }
 
 .question {
-    position: absolute;
-    width: 288px;
-    height: 63px;
-    left: 16px;
-    top: 136px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 116%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #1C1C21;
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 136px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 116%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1c1c21;
 }
 
 .button_wrapper {
-    position: absolute;
-    top: 296px;
-    left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  min-width: 320px;
+  min-height: 248px;
+  left: 0px;
+  top: 296px;
 }
 
 .choise_button {
-    text-align: left;
-    padding-left: 24px;
-    display: block;
-    margin: 0 auto;
-    height: 56px;
-    width: 288px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    background-image: url('./images/Rectangle\ 4.svg');
+  position: relative;
+  text-align: left;
+  padding-left: 24px;
+  display: block;
+  margin: 0 auto;
+  height: 56px;
+  width: 288px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-image: url("./images/Rectangle\ 4.svg");
 }
 
 .choise_button:not(:last-child) {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .choise_button::before {
-    min-width: 17px;
-    height: 2px;
-    background-image: url('./images/Vector\ 2.svg');
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 0px;
+  right: -16px;
+  top: calc(50% - 0px / 2);
+
+  /* Black-40 */
+
+  border: 1px solid #d0d0d8;
+}
+
+.choise_button::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 0px;
+  left: -16px;
+  top: calc(50% - 0px / 2);
+
+  /* Black-40 */
+
+  border: 1px solid #d0d0d8;
 }
 
 .choise_letter {
-    color: rgba(255, 139, 55, 1);
-    margin-right: 8px;
-
+  color: rgba(255, 139, 55, 1);
+  margin-right: 8px;
 }
