@@ -1,0 +1,63 @@
+.result_info {
+    position: relative;
+    background-color: rgba(245, 245, 247, 1);
+    height: 100vh;
+}
+
+.close {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 16px;
+    top: 16px;
+    background-image: url('./images/Union\ .svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.result {
+    position: absolute;
+    top: 64px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result_level {
+    position: relative;
+    width: 240px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-image: url('./images/Rectangle\ 4.svg');
+}
+
+.result_level::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 41px;
+    left: 0px;
+    left: -40px;
+    top: 50%;
+    background-color: #D0D0D8;
+}
+
+.result_level::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 41px;
+    right: 0px;
+    right: -40px;
+    top: 50%;
+    background-color: #D0D0D8;
+}
+
+.result_level:not(:last-child) {
+    margin-bottom: 8px;
+}

@@ -68,26 +68,20 @@
   content: "";
   position: absolute;
   width: 17px;
-  height: 0px;
+  height: 1px;
   right: -16px;
-  top: calc(50% - 0px / 2);
-
-  /* Black-40 */
-
-  border: 1px solid #d0d0d8;
+  top: 50%;
+  background-color: #d0d0d8;
 }
 
 .choise_button::after {
   content: "";
   position: absolute;
   width: 17px;
-  height: 0px;
+  height: 1px;
   left: -16px;
-  top: calc(50% - 0px / 2);
-
-  /* Black-40 */
-
-  border: 1px solid #d0d0d8;
+  top: 50%;
+  background-color: #d0d0d8;
 }
 
 .choise_letter {
