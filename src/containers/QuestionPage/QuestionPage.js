@@ -1,7 +1,12 @@
 import React from "react";
+import Questions from "../../components/Questions/Questions";
 
 const QuestionPage = () => {
-  return <div></div>;
+  return (
+    <>
+      <Questions />
+    </>
+  );
 };
 
 export default QuestionPage;
