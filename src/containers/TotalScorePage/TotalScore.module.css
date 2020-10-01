@@ -57,3 +57,26 @@
 
     color: #1C1C21;
 }
+
+@media(min-width:768px) {
+    .cool {
+        width: 322px;
+        height: 344px;
+    }
+
+    .score_info {
+        width: 624px;
+        height: 110px;
+        top: 50%;
+    }
+
+    .score_title {
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    .score {
+        font-weight: 600;
+        font-size: 56px;
+    }
+}

@@ -14,6 +14,7 @@
   border: none;
   outline: none;
   background-image: url("./images/Union.svg");
+  background-repeat: no-repeat;
 }
 
 .question {
@@ -93,4 +94,36 @@
 
 .wrong {
   background-image: url("./images/Wrong.svg");
+}
+
+@media(min-width:768px) {
+  .menu_button {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+  }
+
+  .question {
+    font-weight: 600;
+    font-size: 32px;
+    width: 414px;
+  }
+
+  .choise_button {
+    width: 389px;
+    height: 76px;
+    background-size: cover;
+
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .choise_button:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .choise_letter {
+    font-weight: 600;
+    font-size: 20px;
+  }
 }

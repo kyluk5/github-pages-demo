@@ -1,5 +1,4 @@
 .result_info {
-    position: relative;
     background-color: rgba(245, 245, 247, 1);
     height: 100vh;
 }
@@ -78,4 +77,35 @@
     background-color: #ff8b37;
     width: 100vw;
     z-index: -1;
+}
+
+@media(max-width:1279px) {
+    .result_info {
+        position: absolute;
+        background-color: rgba(245, 245, 247, 1);
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        right: -100vw;
+    }
+}
+
+@media(min-width:768px) {
+    .close {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+        right: 26px;
+        top: 26px;
+    }
+
+    .result_level {
+        width: 300px;
+        height: 40px;
+        background-size: cover;
+
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+    }
 }
