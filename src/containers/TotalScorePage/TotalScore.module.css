@@ -60,8 +60,8 @@
 
 @media(min-width:768px) {
     .cool {
-        width: 322px;
-        height: 344px;
+        width: 451.61px;
+        height: 356.59px;
     }
 
     .score_info {
@@ -78,5 +78,18 @@
     .score {
         font-weight: 600;
         font-size: 56px;
+    }
+}
+
+@media(min-width:1280px) {
+    .cool {
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    .score_info {
+        top: 34%;
+        left: 69%;
     }
 }

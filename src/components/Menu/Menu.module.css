@@ -110,3 +110,18 @@
         line-height: 40px;
     }
 }
+
+@media(min-width:1280px) {
+    .result_info {
+        width: 30vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        background-color: white;
+    }
+
+    .close {
+        display: none;
+    }
+}

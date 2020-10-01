@@ -130,6 +130,34 @@
   }
 }
 
+@media(min-width:1280px) {
+  .menu_button {
+    display: none;
+  }
+
+  .background {
+    width: 70vw;
+  }
+
+  .question {
+    width: 624px;
+    height: 74px;
+    top: 133px;
+    text-align: left;
+  }
+
+  .button_wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 828px;
+    top: 60%;
+  }
+
+  .choise_button::before {
+    width: 414px;
+  }
+}
+
 /* ==============animation menu==================== */
 
 .show {

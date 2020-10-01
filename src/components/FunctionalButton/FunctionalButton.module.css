@@ -37,3 +37,17 @@
         font-size: 20px;
     }
 }
+
+@media(min-width:1280px) {
+    .functional_button {
+        top: 50%;
+        left: 65%;
+        width: 296px;
+        height: 64px;
+        border-radius: 12px;
+
+        font-weight: 600;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
