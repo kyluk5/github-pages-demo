@@ -17,6 +17,7 @@ function welcomeSound() {
 
 const start = () => {
   welcomeSound();
+
   return (
     <div className={styles.start_wraper}>
       <img src={cool} alt="hand_gesture" className={styles.hand_gesture} />

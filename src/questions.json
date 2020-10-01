@@ -1,0 +1,111 @@
+{
+    "questions": [{
+        "id": "1",
+        "question": "What is the name of the country in which you live?",
+        "answers": {
+            "Ukraine": "true",
+            "Ukraina": "false",
+            "LNR": "false",
+            "DNR": "false"
+        }
+    }, {
+        "id": "2",
+        "question": "What will be twice two?",
+        "answers": {
+            "1": "false",
+            "2": "false",
+            "3": "false",
+            "4": "true"
+        }
+    }, {
+        "id": "3",
+        "question": "What was the name of Taras Shevchenko's father?",
+        "answers": {
+            "Gregory": "true",
+            "Ivan": "false",
+            "Mikita": "false",
+            "Stepan": "false"
+        }
+    }, {
+        "id": "4",
+        "question": "How old is the developer of this game?",
+        "answers": {
+            "22": "false",
+            "23": "false",
+            "32": "false",
+            "26": "true"
+        }
+    }, {
+        "id": "5",
+        "question": "How many months in one year?",
+        "answers": {
+            "12": "true",
+            "11": "false",
+            "13": "false",
+            "14": "false"
+        }
+    }, {
+        "id": "6",
+        "question": "How many seconds in one minute?",
+        "answers": {
+            "50": "false",
+            "60": "true",
+            "70": "false",
+            "80": "false"
+        }
+    }, {
+        "id": "7",
+        "question": "How many seasons a year?",
+        "answers": {
+            "2": "false",
+            "4": "true",
+            "3": "false",
+            "5": "false"
+        }
+    }, {
+        "id": "8",
+        "question": "The capital of Ukraine ?",
+        "answers": {
+            "Shepetivka": "false",
+            "Kharkiv": "false",
+            "Kiev": "true",
+            "Ternopil": "false"
+        }
+    }, {
+        "id": "9",
+        "question": "The capital of Ukraine ?",
+        "answers": {
+            "Shepetivka": "false",
+            "Kharkiv": "false",
+            "Kiev": "true",
+            "Ternopil": "false"
+        }
+    }, {
+        "id": "10",
+        "question": "What kind of transport goes underground?",
+        "answers": {
+            "Boat": "false",
+            "Underground": "true",
+            "Car": "false",
+            "Tram": "false"
+        }
+    }, {
+        "id": "11",
+        "question": "The most expensive vacation in Ukraine.",
+        "answers": {
+            "Odessa": "false",
+            "Bukovel": "true",
+            "Vorokhta": "false",
+            "Lviv": "false"
+        }
+    }, {
+        "id": "12",
+        "question": "The first capital of Ukraine?",
+        "answers": {
+            "Odessa": "false",
+            "Bukovel": "false",
+            "Kharkiv": "true",
+            "Lviv": "false"
+        }
+    }]
+}
