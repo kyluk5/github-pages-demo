@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./TotalScore.module.css";
 import FunctionalButton from "../../components/FunctionalButton/FunctionalButton";
 
-import cool from "../../Icons/cool.svg";
+import cool from "../../assets/Icons/cool_sm.svg";
 
 const TotalScore = () => {
   return (

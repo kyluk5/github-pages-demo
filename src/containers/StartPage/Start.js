@@ -3,7 +3,7 @@ import StartBackground from "../../components/StartBackground/StartBackground";
 import FunctionalButton from "../../components/FunctionalButton/FunctionalButton";
 import styles from "./Start.module.css";
 
-import cool from "../../Icons/cool.svg";
+import cool from "../../assets/Icons/cool.svg";
 
 const start = () => {
   return (

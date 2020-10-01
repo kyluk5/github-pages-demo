@@ -38,3 +38,19 @@
     color: #1C1C21;
     top: 288px;
 }
+
+
+@media(min-width:768px) {
+
+    .hand_gesture {
+        width: 451.61px;
+        height: 356.59px;
+    }
+
+    .title {
+        top: 50%;
+        font-weight: 600;
+        font-size: 56px;
+        width: 440px;
+    }
+}
