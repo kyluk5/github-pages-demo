@@ -81,12 +81,13 @@
 
 @media(max-width:1279px) {
     .result_info {
-        position: absolute;
+        position: fixed;
         background-color: rgba(245, 245, 247, 1);
         height: 100vh;
         width: 100vw;
         top: 0;
         right: -100vw;
+        transition: transform 350ms ease-in-out;
     }
 }
 

@@ -101,6 +101,8 @@
     width: 30px;
     height: 30px;
     background-size: contain;
+    right: 26px;
+    top: 26px;
   }
 
   .question {
@@ -126,4 +128,10 @@
     font-weight: 600;
     font-size: 20px;
   }
+}
+
+/* ==============animation menu==================== */
+
+.show {
+  transform: translateX(-100vw);
 }

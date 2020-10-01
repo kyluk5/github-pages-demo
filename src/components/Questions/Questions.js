@@ -6,10 +6,15 @@ function changeClass(e) {
   target.classList.add(styles.selected);
 }
 
+function animationMenu() {
+  const menu = document.getElementById("menu");
+  menu.classList.add(styles.show);
+}
+
 const Questions = () => {
   return (
     <div className={styles.background}>
-      <button className={styles.menu_button}></button>
+      <button onClick={animationMenu} className={styles.menu_button}></button>
       <h2 className={styles.question}>
         How old your elder brother was 10 years before you was born, mate?
       </h2>

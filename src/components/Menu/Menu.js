@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "./Menu.module.css";
 
+function closeMenu() {
+  const menu = document.getElementById("menu");
+  menu.classList.remove("Questions_show__3m5-p");
+}
+
 const Menu = () => {
   return (
-    <div className={styles.result_info}>
-      <button className={styles.close}></button>
+    <div id="menu" className={styles.result_info}>
+      <button onClick={closeMenu} className={styles.close}></button>
       <div className={styles.result}>
         <span className={styles.result_level}>$1,000,000</span>
         <span className={styles.result_level}>$500,000</span>
