@@ -49,18 +49,18 @@
         ]
     }, {
         "id": "4",
-        "question": "How old is the developer of this game?",
+        "question": "The first capital of Ukraine?",
         "answers": [{
-                "22": "false"
+                "Odessa": "false"
             },
             {
-                "23": "false"
+                "Bukovel": "false"
             },
             {
-                "32": "false"
+                "Kharkiv": "true"
             },
             {
-                "26": "true"
+                "Lviv": "false"
             }
         ]
     }, {
@@ -129,18 +129,18 @@
         ]
     }, {
         "id": "9",
-        "question": "The capital of Ukraine ?",
+        "question": "The most expensive vacation in Ukraine.",
         "answers": [{
-                "Shepetivka": "false"
+                "Odessa": "false"
             },
             {
-                "Kharkiv": "false"
+                "Bukovel": "true"
             },
             {
-                "Kiev": "true"
+                "Vorokhta": "false"
             },
             {
-                "Ternopil": "false"
+                "Lviv": "false"
             }
         ]
     }, {
@@ -161,34 +161,34 @@
         ]
     }, {
         "id": "11",
-        "question": "The most expensive vacation in Ukraine.",
+        "question": "Which IT company do I want to work for?",
         "answers": [{
-                "Odessa": "false"
+                "B2B": "false"
             },
             {
-                "Bukovel": "true"
+                "IT_Inrernational": "false"
             },
             {
-                "Vorokhta": "false"
+                "Genesis": "true"
             },
             {
-                "Lviv": "false"
+                "Kyiv_IT": "false"
             }
         ]
     }, {
         "id": "12",
-        "question": "The first capital of Ukraine?",
+        "question": "How old is the developer of this game?",
         "answers": [{
-                "Odessa": "false"
+                "22": "false"
             },
             {
-                "Bukovel": "false"
+                "23": "false"
             },
             {
-                "Kharkiv": "true"
+                "32": "false"
             },
             {
-                "Lviv": "false"
+                "26": "true"
             }
         ]
     }]

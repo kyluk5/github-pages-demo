@@ -6,27 +6,23 @@ import { navigation } from "../../containers/navigation";
 
 import corectSoundPath from "../../assets/Sound/corect.mp3";
 import wrongSoundPath from "../../assets/Sound/wrong.mp3";
+import completeGamePath from "../../assets/Sound/total.mp3";
 
 function animationMenu() {
   const menu = document.getElementById("menu");
   menu.classList.add(styles.show);
 }
 
-function correctSound() {
+function playSound(sound) {
   const audio = new Audio();
-  audio.src = corectSoundPath;
-  audio.autoplay = true;
-}
-
-function wrongSound() {
-  const audio = new Audio();
-  audio.src = wrongSoundPath;
+  audio.src = sound;
   audio.autoplay = true;
 }
 
 const Questions = () => {
   const history = useHistory();
   const [questionNumber, setQuestion] = useState(1);
+
   const currentObject = questions.find(
     (item) => item.id === String(questionNumber)
   );
@@ -41,10 +37,21 @@ const Questions = () => {
       const [result] = Object.values(choise[currentId]);
 
       if (result === String(true)) {
-        correctSound();
+        playSound(corectSoundPath);
         target.classList.add(styles.correct);
+        setTimeout(() => {
+          if (questionNumber <= Number(11)) {
+            setQuestion(questionNumber + 1);
+          } else {
+            playSound(completeGamePath);
+            history.push(navigation.score);
+          }
+
+          target.classList.remove(styles.correct);
+          target.classList.remove(styles.selected);
+        }, 1000);
       } else {
-        wrongSound();
+        playSound(wrongSoundPath);
         target.classList.add(styles.wrong);
         setTimeout(() => {
           history.push(navigation.score);
