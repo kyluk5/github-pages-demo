@@ -1,8 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styles from "./TotalScore.module.css";
 import FunctionalButton from "../../components/FunctionalButton/FunctionalButton";
 
 import cool from "../../assets/Icons/cool.svg";
+import { navigation } from "../navigation";
 
 const TotalScore = () => {
   return (
@@ -12,7 +14,9 @@ const TotalScore = () => {
         <span className={styles.score_title}>Total score:</span>
         <h3 className={styles.score}>$8,000 earned</h3>
       </div>
-      <FunctionalButton text={"Try again"} />
+      <NavLink to={navigation.start}>
+        <FunctionalButton text={"Try again"} />
+      </NavLink>
     </div>
   );
 };
