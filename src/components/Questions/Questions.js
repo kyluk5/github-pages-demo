@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Questions.module.css";
+import { questions } from "../../questions.json";
 
 function changeClass(e) {
   const target = e.target;
@@ -12,28 +13,30 @@ function animationMenu() {
 }
 
 const Questions = () => {
+  const [question, setQuestion] = useState(1);
+  const text = questions.find((item) => item.id === String(question));
+  const choise = text.answers;
+
   return (
     <div className={styles.background}>
       <button onClick={animationMenu} className={styles.menu_button}></button>
-      <h2 className={styles.question}>
-        How old your elder brother was 10 years before you was born, mate?
-      </h2>
+      <h2 className={styles.question}>{text.question}</h2>
       <div className={styles.button_wrapper}>
         <button onClick={changeClass} className={styles.choise_button}>
           <span className={styles.choise_letter}>A</span>
-          10 years
+          {Object.keys(choise[0])}
         </button>
         <button onClick={changeClass} className={styles.choise_button}>
           <span className={styles.choise_letter}>B</span>
-          11 years
+          {Object.keys(choise[1])}
         </button>
         <button onClick={changeClass} className={styles.choise_button}>
           <span className={styles.choise_letter}>C</span>
-          12 years
+          {Object.keys(choise[2])}
         </button>
         <button onClick={changeClass} className={styles.choise_button}>
           <span className={styles.choise_letter}>D</span>
-          14 years
+          {Object.keys(choise[3])}
         </button>
       </div>
     </div>
