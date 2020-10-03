@@ -1,0 +1,42 @@
+{
+  "files": {
+    "QuestionsPage.css": "/github-pages-demo/static/css/QuestionsPage.16a4e538.chunk.css",
+    "QuestionsPage.js": "/github-pages-demo/static/js/QuestionsPage.71eb215e.chunk.js",
+    "QuestionsPage.js.map": "/github-pages-demo/static/js/QuestionsPage.71eb215e.chunk.js.map",
+    "Start.css": "/github-pages-demo/static/css/Start.2f9a7f1b.chunk.css",
+    "Start.js": "/github-pages-demo/static/js/Start.0292b6d2.chunk.js",
+    "Start.js.map": "/github-pages-demo/static/js/Start.0292b6d2.chunk.js.map",
+    "TotalScore.css": "/github-pages-demo/static/css/TotalScore.0266d466.chunk.css",
+    "TotalScore.js": "/github-pages-demo/static/js/TotalScore.33c71724.chunk.js",
+    "TotalScore.js.map": "/github-pages-demo/static/js/TotalScore.33c71724.chunk.js.map",
+    "main.css": "/github-pages-demo/static/css/main.c5a4f291.chunk.css",
+    "main.js": "/github-pages-demo/static/js/main.4525704c.chunk.js",
+    "main.js.map": "/github-pages-demo/static/js/main.4525704c.chunk.js.map",
+    "runtime-main.js": "/github-pages-demo/static/js/runtime-main.e2a7dd40.js",
+    "runtime-main.js.map": "/github-pages-demo/static/js/runtime-main.e2a7dd40.js.map",
+    "static/js/5.cdbaeb63.chunk.js": "/github-pages-demo/static/js/5.cdbaeb63.chunk.js",
+    "static/js/5.cdbaeb63.chunk.js.map": "/github-pages-demo/static/js/5.cdbaeb63.chunk.js.map",
+    "index.html": "/github-pages-demo/index.html",
+    "precache-manifest.fa379466de94ba13aac909e7cab23786.js": "/github-pages-demo/precache-manifest.fa379466de94ba13aac909e7cab23786.js",
+    "service-worker.js": "/github-pages-demo/service-worker.js",
+    "static/css/QuestionsPage.16a4e538.chunk.css.map": "/github-pages-demo/static/css/QuestionsPage.16a4e538.chunk.css.map",
+    "static/css/Start.2f9a7f1b.chunk.css.map": "/github-pages-demo/static/css/Start.2f9a7f1b.chunk.css.map",
+    "static/css/TotalScore.0266d466.chunk.css.map": "/github-pages-demo/static/css/TotalScore.0266d466.chunk.css.map",
+    "static/css/main.c5a4f291.chunk.css.map": "/github-pages-demo/static/css/main.c5a4f291.chunk.css.map",
+    "static/js/5.cdbaeb63.chunk.js.LICENSE.txt": "/github-pages-demo/static/js/5.cdbaeb63.chunk.js.LICENSE.txt",
+    "static/media/Questions.module.css": "/github-pages-demo/static/media/hover.f436bb45.svg",
+    "static/media/Menu.module.css": "/github-pages-demo/static/media/Union .cecfba40.svg",
+    "static/media/cool.svg": "/github-pages-demo/static/media/cool.836b7d8a.svg",
+    "static/media/corect.mp3": "/github-pages-demo/static/media/corect.2fec32d4.mp3",
+    "static/media/hello.mp3": "/github-pages-demo/static/media/hello.723faa53.mp3",
+    "static/media/start.mp3": "/github-pages-demo/static/media/start.392aeae2.mp3",
+    "static/media/total.mp3": "/github-pages-demo/static/media/total.5696f0da.mp3",
+    "static/media/wrong.mp3": "/github-pages-demo/static/media/wrong.7772b19b.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2a7dd40.js",
+    "static/js/5.cdbaeb63.chunk.js",
+    "static/css/main.c5a4f291.chunk.css",
+    "static/js/main.4525704c.chunk.js"
+  ]
+}
