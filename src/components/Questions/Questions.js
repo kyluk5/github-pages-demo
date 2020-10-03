@@ -51,7 +51,7 @@ const Questions = () => {
             );
             passedLevel.classList.remove(styles.result_current);
             passedLevel.classList.add(styles.result_passed);
-            curentLevel.classList.add(styles.result_current);
+            curentLevel.classList.toggle(styles.result_current);
           } else {
             playSound(completeGamePath);
             history.push(navigation.score);

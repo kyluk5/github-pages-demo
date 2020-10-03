@@ -44,7 +44,7 @@ const Menu = () => {
         <span name="2" className={styles.result_level}>
           $1,000
         </span>
-        <span name="1" className={styles.result_level}>
+        <span name="1" className={styles.result_current}>
           $500
         </span>
       </div>

@@ -80,15 +80,15 @@
   z-index: -1;
 }
 
-.choise_button:hover {
+/* .choise_button:hover {
   background-image: url("./images/hover.svg");
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
-.choise_button:hover::before {
+/* .choise_button:hover::before {
   background-color: rgba(255, 139, 55, 1);
-}
+} */
 
 .choise_letter {
   color: rgba(255, 139, 55, 1);
@@ -209,14 +209,18 @@
   height: 32px;
   text-align: center;
   line-height: 32px;
-  background-image: url('../Menu/images/Rectangle\ 4.svg');
+  background-image: url('../Menu/images/Rectangle\ 4.svg') !important;
 
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
 
-  color: rgba(208, 208, 216, 1);
+  color: rgba(208, 208, 216, 1) !important;
+}
+
+.result_passed::before {
+  background-color: rgba(208, 208, 216, 1) !important;
 }
 
 .result_current {
@@ -232,6 +236,10 @@
   font-weight: normal;
   font-size: 14px;
 
-  background-image: url('../Menu/images/Current.svg');
+  background-image: url('../Menu/images/Current.svg') !important;
   color: rgba(255, 139, 55, 1);
+}
+
+.result_current::before {
+  background-color: rgba(255, 139, 55, 1) !important;
 }
