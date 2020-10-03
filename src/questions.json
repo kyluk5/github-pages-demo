@@ -2,6 +2,7 @@
     "questions": [{
         "id": "1",
         "question": "What is the name of the country in which you live?",
+        "win": "500",
         "answers": [{
                 "Ukraine": "true"
             },
@@ -18,6 +19,7 @@
     }, {
         "id": "2",
         "question": "What will be twice two?",
+        "win": "1000",
         "answers": [{
                 "1": "false"
             },
@@ -34,6 +36,7 @@
     }, {
         "id": "3",
         "question": "What was the name of Taras Shevchenko's father?",
+        "win": "2000",
         "answers": [{
                 "Gregory": "true"
             },
@@ -50,6 +53,7 @@
     }, {
         "id": "4",
         "question": "The first capital of Ukraine?",
+        "win": "4000",
         "answers": [{
                 "Odessa": "false"
             },
@@ -66,6 +70,7 @@
     }, {
         "id": "5",
         "question": "How many months in one year?",
+        "win": "8000",
         "answers": [{
                 "12": "true"
             },
@@ -82,6 +87,7 @@
     }, {
         "id": "6",
         "question": "How many seconds in one minute?",
+        "win": "16000",
         "answers": [{
                 "50": "false"
             },
@@ -98,6 +104,7 @@
     }, {
         "id": "7",
         "question": "How many seasons a year?",
+        "win": "32000",
         "answers": [{
                 "2": "false"
             },
@@ -114,6 +121,7 @@
     }, {
         "id": "8",
         "question": "The capital of Ukraine ?",
+        "win": "64000",
         "answers": [{
                 "Shepetivka": "false"
             },
@@ -130,6 +138,7 @@
     }, {
         "id": "9",
         "question": "The most expensive vacation in Ukraine.",
+        "win": "125000",
         "answers": [{
                 "Odessa": "false"
             },
@@ -146,6 +155,7 @@
     }, {
         "id": "10",
         "question": "What kind of transport goes underground?",
+        "win": "250000",
         "answers": [{
                 "Boat": "false"
             },
@@ -162,6 +172,7 @@
     }, {
         "id": "11",
         "question": "Which IT company do I want to work for?",
+        "win": "500000",
         "answers": [{
                 "B2B": "false"
             },
@@ -178,6 +189,7 @@
     }, {
         "id": "12",
         "question": "How old is the developer of this game?",
+        "win": "1000000",
         "answers": [{
                 "22": "false"
             },

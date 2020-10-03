@@ -80,15 +80,15 @@
   z-index: -1;
 }
 
-/* .choise_button:hover {
+.choise_button:hover {
   background-image: url("./images/hover.svg");
   background-repeat: no-repeat;
   background-size: contain;
-} */
+}
 
-/* .choise_button:hover::before {
+.choise_button:hover::before {
   background-color: rgba(255, 139, 55, 1);
-} */
+}
 
 .choise_letter {
   color: rgba(255, 139, 55, 1);
@@ -96,7 +96,7 @@
 }
 
 .selected {
-  background-image: url("./images/Selected.svg");
+  background-image: url("./images/Selected.svg") !important;
 }
 
 .selected::before {
@@ -104,19 +104,19 @@
 }
 
 .correct {
-  background-image: url("./images/Correct.svg");
+  background-image: url("./images/Correct.svg") !important;
 }
 
 .correct::before {
-  background-color: #47D867;
+  background-color: #47D867 !important;
 }
 
 .wrong {
-  background-image: url("./images/Wrong.svg");
+  background-image: url("./images/Wrong.svg") !important;
 }
 
 .wrong::before {
-  background-color: #EC6259;
+  background-color: #EC6259 !important;
 }
 
 @media(min-width:768px) {

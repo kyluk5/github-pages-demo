@@ -19,6 +19,8 @@ function playSound(sound) {
   audio.autoplay = true;
 }
 
+export let score = 0;
+
 const Questions = () => {
   const history = useHistory();
   const [questionNumber, setQuestion] = useState(1);
@@ -37,6 +39,7 @@ const Questions = () => {
       const [result] = Object.values(choise[currentId]);
 
       if (result === String(true)) {
+        score = currentObject.win;
         playSound(corectSoundPath);
         target.classList.add(styles.correct);
 
