@@ -20,10 +20,15 @@
     /* or 16px */
     color: rgba(255, 255, 255, 1);
     outline: none;
+    transition: all 250ms linear;
+}
+
+.functional_button:hover {
+    background-color: rgba(255, 172, 112, 1);
 }
 
 .button_pressed {
-    background-color: #E87928;
+    background-color: #e87928;
 }
 
 @media(min-width:768px) {

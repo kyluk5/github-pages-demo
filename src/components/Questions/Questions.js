@@ -39,9 +39,19 @@ const Questions = () => {
       if (result === String(true)) {
         playSound(corectSoundPath);
         target.classList.add(styles.correct);
+
         setTimeout(() => {
           if (questionNumber <= Number(11)) {
             setQuestion(questionNumber + 1);
+            const [passedLevel] = document.getElementsByName(
+              String(questionNumber)
+            );
+            const [curentLevel] = document.getElementsByName(
+              String(questionNumber + 1)
+            );
+            passedLevel.classList.remove(styles.result_current);
+            passedLevel.classList.add(styles.result_passed);
+            curentLevel.classList.add(styles.result_current);
           } else {
             playSound(completeGamePath);
             history.push(navigation.score);

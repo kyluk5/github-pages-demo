@@ -59,10 +59,34 @@
 }
 
 .result_passed {
+    position: relative;
+    width: 240px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
     color: rgba(208, 208, 216, 1);
 }
 
 .result_current {
+    position: relative;
+    width: 240px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
     background-image: url('./images/Current.svg');
     color: rgba(255, 139, 55, 1);
 }
@@ -108,6 +132,19 @@
         font-weight: normal;
         font-size: 20px;
         line-height: 40px;
+    }
+
+    .result_current {
+        width: 300px;
+        height: 40px;
+        background-size: cover;
+
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 40px;
+
+        background-image: url('./images/Current.svg');
+        color: rgba(255, 139, 55, 1);
     }
 }
 
